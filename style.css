@@ -1,0 +1,167 @@
+body{
+    background-image: url(./img/DESKTOP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+}
+
+
+.roboto-uniquifier {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.botao{
+    background-color: #FC4754 ;
+    width:130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 25px 30px 0px 30px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+span{
+    color: white;
+    font-weight: normal;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.texto1{
+    display:flex;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.texto2{
+    display:flex;
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.duplabotoes{
+    display: flex;
+    margin-left: 60px;
+}
+
+.botaoesquerdo{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #FC4754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.botaodireito{
+    
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #FC4754;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.counter-container {
+    display: flex;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.counter {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.counter:not(:last-child) {
+    border-right: 2px solid #5E4D63; 
+    
+}
+
+.count {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.blur-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(94, 94, 94, 0.6); 
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.blur-box .left {
+    flex: 1;
+}
+
+.btn-bid {
+    background-color: #FF5C5C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+
+.label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+}
